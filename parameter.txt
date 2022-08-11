@@ -1,0 +1,3 @@
+%Instruction for parameters: 1st line: testbed folder; 2nd: solver type: 1-enhanced formulation; 2-edge peeling; default (0 or other numbers)-monolithic formulation
+./data/DIMACS2/
+0
