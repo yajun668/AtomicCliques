@@ -19,14 +19,14 @@ The following steps show how to compile and run the code to find atomic cliques 
 - "data" folder includes all graph instances that are used in this study
 
 
-### Steps to run the code to find atomic cliques using Enhanced Formulation (EF) solver in Linux environment:
+### Steps to run the code to find atomic cliques solver in Linux environment:
 1. Download or clone the repository to your machine.
 2. Open the "Makefile" and set GUROBI_HOME to the directory of your Gurobi installation, e.g.: /opt/gurobi/9.5.1/linux64.
 3. From the terminal, go to the folder containing "Makefile".
 4. Type "make" and hit enter to compile. 
-5. Solver selection throurgh "parameter.txt" file:
+5. Solver selection through "parameter.txt" file:
 - If you would like to run Enhanced Formulation (EF) solver, set solver type =1.
-- If you would like to run Edge Peeling (EP) + WB solver, set solver type =2. After Step 6, the code will run EP algorithm to generate auxiliary graphs as WB [solver's](https://github.com/jwalteros/dOmega) input. 
+- If you would like to run Edge Peeling (EP) + [WB solver](https://github.com/jwalteros/dOmega), set solver type =2. After Step 6, the code will run EP algorithm to generate auxiliary graphs as WB solver's input. Then run the [WB solver](https://github.com/jwalteros/dOmega) on these auxiliary graphs.
 6. Type "./main" to run the code.
 
 
