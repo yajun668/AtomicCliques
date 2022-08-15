@@ -6,7 +6,7 @@ This code accompanies the paper "On Atomic Cliques in Temporal Graphs" and is wr
     @article{LMSB2022Atomic-clique, 
   	title = {On Atomic Cliques in Temporal Graphs}, 
   	author = {Lu, Yajun and Miao, Zhuqi and Sahraeian, Parisa and Balasundaram, Balabhaskar}, 
-	note = {Under revision},
+	note = {Under Review},
   	year = {2022}
 	}
 
@@ -16,7 +16,7 @@ This code accompanies the paper "On Atomic Cliques in Temporal Graphs" and is wr
 The following steps show how to compile and run the code to find atomic cliques in a Linux environment using a makefile (you can also run the code in Mac or Windows environment by configuring your IDE appropriately). 
 
 - "parameter.txt" file is used to configure testbed folder and type of solver
-- "data" folder includes all graph instances that are used in this study
+- "data" folder includes a subset of graph instances that are used in this study. Complete graph instances can be downloaded from [Mendeley Data](https://data.mendeley.com/datasets/sj2jzztv4z/1).
 
 
 ### Steps to run the code to find atomic cliques solver in Linux environment:
