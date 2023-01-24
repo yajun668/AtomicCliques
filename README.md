@@ -6,8 +6,8 @@ This code accompanies the paper "On Atomic Cliques in Temporal Graphs" and is wr
     @article{LMSB2022Atomic-clique, 
   	title = {On Atomic Cliques in Temporal Graphs}, 
   	author = {Lu, Yajun and Miao, Zhuqi and Sahraeian, Parisa and Balasundaram, Balabhaskar}, 
-	note = {Under Review},
-  	year = {2022}
+	note = {To Appear at Optimization Letters},
+  	year = {2023}
 	}
 
 
